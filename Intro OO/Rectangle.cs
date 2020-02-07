@@ -20,9 +20,23 @@ namespace Intro_OO
         // Un constructeur est une méthode spécial qui est appelé automatiquement lors de la création d'un objet
         // Un constructeur n'a pas un type de retour
         // Un constructer porte exactement le même nom que la classe
+        public Rectangle(int hauteur, int largeur)
+        {
+            // _hauteur = hauteur;
+            // _largeur = largeur;
+
+            // Afin de profiter des validations existantes
+            SetHauteur(hauteur);
+            Largeur = largeur;
+        }
+
+        // Un constructeur qui ne prend pas de paramètres se nomme un constructeur par defaut
+        // Si, et seulement si, aucun contructeur n'est explicitement défini, un constructeur par défaut implicit existe
+        // Si nous voulons avoir un contructeur par défaut, en plus d'autre contructeurs avec paramètres, il faut le définir explicitement
         public Rectangle()
         {
-
+            _largeur = 1;
+            _hauteur = 1;
         }
 
         // Pour respecter le principe d'encapsulation des données, aucun attribut ne sera public, il faut donc fournir des méthodes 

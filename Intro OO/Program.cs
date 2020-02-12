@@ -12,10 +12,13 @@ namespace Intro_OO
         // Exemples à venir plus tard
         static void Main(string[] args)
         {
-            Test_Hologe();
+            SimulateurBanque B1 = new SimulateurBanque();
+            B1.Simuler();
 
             Pause();
         }
+
+
 
         static void Test_Hologe()
         {
@@ -99,6 +102,33 @@ namespace Intro_OO
             Console.WriteLine();
             Console.WriteLine();
             r3.Afficher('X');
+
+            //Déclaration d'une variable avec 'var', le compilateur va déterminer le type de la variable
+            var r4 = new Rectangle();
+            // Identique à : Rectangle r5 = new Rectangle();
+            /*
+            var entier = 5; // int
+            var reel = 3.14; // double
+            */
+            // Pas d'initialisation, impossibe
+            // var x;
+
+            //Meme sans ref, on passe une référence à r4
+            TestDeParametre(r4);
+            //r4.Afficher;
+
+        }
+
+        static void TestDeParametre(Rectangle rectangle)
+        {
+            rectangle.SetHauteur(3);
+            rectangle.Largeur = 5;
+
+            // Pour les type de classes, une variable n'est céée que lorsque l'instruction "new" est appelée.
+            // autreRectangle est une référence sure rectangle, car une nouvelle variable n'a pas été créée aved "new"
+            Rectangle autreRectangle = rectangle;
+            autreRectangle.SetHauteur(10);
+            autreRectangle.Largeur = 22;
         }
 
         static void Pause()

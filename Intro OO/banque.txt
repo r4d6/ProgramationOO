@@ -1,0 +1,10 @@
+Arnaud
+100
+Benoit
+325,5
+Caroline
+275,35
+Denis
+65,8
+Eva
+183,67

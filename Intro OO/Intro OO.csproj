@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banque.cs" />
+    <Compile Include="CompteBancaire.cs" />
     <Compile Include="Horloge.cs" />
     <Compile Include="HorlogeV2.cs" />
     <Compile Include="Program.cs" />

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro CSharp", "Intro CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro OO", "Intro OO\Intro OO.csproj", "{EF023B2A-6480-4775-A33E-F2247F1B4A83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heritage", "Heritage\Heritage.csproj", "{9DEBA950-2315-4E48-ADA7-DA0C391D0607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{CCEDE9D6-7C2F-4CBE-AFF9-97C095DFB0FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{EF023B2A-6480-4775-A33E-F2247F1B4A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF023B2A-6480-4775-A33E-F2247F1B4A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF023B2A-6480-4775-A33E-F2247F1B4A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DEBA950-2315-4E48-ADA7-DA0C391D0607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEBA950-2315-4E48-ADA7-DA0C391D0607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEBA950-2315-4E48-ADA7-DA0C391D0607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEBA950-2315-4E48-ADA7-DA0C391D0607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEDE9D6-7C2F-4CBE-AFF9-97C095DFB0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEDE9D6-7C2F-4CBE-AFF9-97C095DFB0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEDE9D6-7C2F-4CBE-AFF9-97C095DFB0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEDE9D6-7C2F-4CBE-AFF9-97C095DFB0FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

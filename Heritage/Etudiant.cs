@@ -22,7 +22,7 @@ namespace Heritage
 
         }
 
-        // à Chaque fois qu'un constructer d'une classe dérivée est appeélé, un constructeur de la classe de base est aussi toujours appelé
+        // à Chaque fois qu'un constructer d'une classe dérivée est appelé, un constructeur de la classe de base est aussi toujours appelé
         // Si aucun constructeur de la classe de base n'est spécifié, le constructer par défaut est implicitement choisi
         // Le constructeur de la classe de base est toujours appelé avant le constructeur de la classe dérivé
         public Etudiant(string prenom, string nom, int année, int mois, int jour, int matricule)

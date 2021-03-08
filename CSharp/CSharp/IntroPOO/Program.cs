@@ -7,7 +7,8 @@ namespace IntroPOO
     {
         static void Main(string[] args)
         {
-            Test_Rectancle();
+            SimulateurBanque simulateur = new SimulateurBanque();
+            simulateur.Simuler();
             Pause();
         }
 
